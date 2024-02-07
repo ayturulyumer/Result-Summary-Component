@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Results summary component</title>
 
@@ -24,14 +25,14 @@
 </head>
 
 <body>
-  <div class="container">
+  <main class="container">
     <div class="col1">
       <p>Your Result</p>
       <div class="col1-circle">
         <h1>76</h1>
         <p>of 100</p>
       </div>
-      <p>Great</p>
+      <h3>Great</h3>
       <p> You scored higher than 65% of the people who have taken these tests.</p>
     </div>
     <div class="col2">
@@ -39,34 +40,34 @@
       <div class="score">
         <div class="skill">
           <img src="/assets/images/icon-reaction.svg" alt="skillicon">
-          <p>Reaction</p>
+          <p class="reaction">Reaction</p>
         </div>
-        <p> 80 / 100</p>
+        <p><strong>80</strong> / 100</p>
       </div>
       <div class="score">
         <div class="skill">
           <img src="/assets/images/icon-memory.svg" alt="skillicon">
-          <p>Memory</p>
+          <p class="memory">Memory</p>
         </div>
-        <p> 92 / 100</p>
+        <p> <strong>92</strong> / 100</p>
       </div>
       <div class="score">
         <div class="skill">
           <img src="/assets/images/icon-verbal.svg" alt="skillicon">
-          <p>Verbal</p>
+          <p class="verbal">Verbal</p>
         </div>
-        <p> 61 / 100</p>
+        <p> <strong>62</strong> / 100</p>
       </div>
       <div class="score">
         <div class="skill">
           <img src="/assets/images/icon-visual.svg" alt="skillicon">
-          <p>Visual</p>
+          <p class="visual">Visual</p>
         </div>
-        <p> 72 / 100</p>
+        <p> <strong>72</strong> / 100</p>
       </div>
       <button class="continue">Continue</button>
     </div>
-  </div>
+  </main>
 
 
   <div class="attribution">
