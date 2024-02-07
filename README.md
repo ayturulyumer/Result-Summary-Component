@@ -4,8 +4,8 @@
 
 ## Welcome! 👋
 
-It's a simple  responsive page that I created for this challenge: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV 
-Project Link - https://ressummarycomponent.netlify.app/
+ - It's a simple  responsive page that I created for this challenge: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV 
+ - Project Link - https://ressummarycomponent.netlify.app/
 
 # Built with:
 
